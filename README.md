@@ -67,12 +67,12 @@ A total of 12 custom features were created:
 
 | Cluster | Description | Size | Performance |
 |---------|-------------|------|-------------|
-| C2 | Weekend operations | 26.6% | ✅ 0% issues |
-| C6 | Domestic reliability | 13.6% | ✅ 0% issues |
-| C0 | Afternoon Paris routes (3:06 PM) | 15.7% | ✅ 0% issues |
-| C7 | Evening peak (5:00 PM) | 14.0% | ✅ 0% issues |
-| C3 | Evening delays (4:30 PM) | 3.6% | ❌ 100% delayed |
-| C4 | Afternoon cancellations (1:30 PM) | 2.2% | ❌ 100% cancelled |
+| C2 | Weekend operations | 26.6% | 0% issues |
+| C6 | Domestic reliability | 13.6% | 0% issues |
+| C0 | Afternoon Paris routes (3:06 PM) | 15.7% | 0% issues |
+| C7 | Evening peak (5:00 PM) | 14.0% | 0% issues |
+| C3 | Evening delays (4:30 PM) | 3.6% | 100% delayed |
+| C4 | Afternoon cancellations (1:30 PM) | 2.2% | 100% cancelled |
 
 ### 🔹 Association Rules (Apriori)
 
@@ -82,7 +82,7 @@ A total of 12 custom features were created:
 | `{Night, Normal_Operation}` → `{International, OffPeak}` | 90.5% |
 | `{Night, International, Normal_Operation}` → `{OffPeak}` | 100% |
 
-✅ **Data-Driven Peak Hours:** 10:00 AM and 15:00–18:00
+**Data-Driven Peak Hours:** 10:00 AM and 15:00–18:00
 
 ---
 
@@ -112,11 +112,11 @@ pip install -r requirements.txt
 jupyter notebook Air_Traffic_Analysis.ipynb
 ```
 
-> 💡 You can also run the notebook on **Google Colab** (recommended).
+> You can also run the notebook on **Google Colab** (recommended).
 
 ---
 
-## ⚠️ Dataset Notice
+## Dataset Notice
 
 The dataset used in this project comes from Algerian airport  and is **not publicly available**.
 Due to data privacy and permission restrictions, it is not included in this repository.
@@ -148,6 +148,6 @@ To run the notebook:
 
 ---
 
-## 📄 License
+## License
 
 This project was developed as part of a Data Mining course at **ENSIA** (École Nationale Supérieure d'Informatique) and this was my own contribution to that project , Algeria
